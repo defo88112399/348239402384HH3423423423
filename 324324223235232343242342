@@ -2095,14 +2095,11 @@ makeDraggable(frame)
 local selectedPlayer = nil
 
 local function fireShuriken(targetPlayer)
-    if not targetPlayer or not targetPlayer.Character or not targetPlayer.Character:FindFirstChild("HumanoidRootPart") or not targetPlayer.Character:FindFirstChild("Head") then
-        warn("Invalid target player")
-        return
-    end
-
-    local targetPosition = targetPlayer.Character.Head.Position
-    game.Players.LocalPlayer.Character.Shuriken.Handle.CFrame = CFrame.new(targetPosition)
-    game.Players.LocalPlayer.Character.Shuriken.HitEvent:FireServer(targetPosition)
+	if not targetPlayer or not targetPlayer.Character or not targetPlayer.Character:FindFirstChild("HumanoidRootPart") or not targetPlayer.Character:FindFirstChild("Head") then
+		return
+	end
+	local targetPosition = targetPlayer.Character.Head.Position
+	game.Players.LocalPlayer.Character.Shuriken.HitEvent:FireServer(targetPosition)
 end
 
 local function continuouslyFireShuriken()
