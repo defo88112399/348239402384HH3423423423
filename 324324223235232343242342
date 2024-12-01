@@ -1,259 +1,264 @@
-	HunterHub = Instance.new("ScreenGui")
-	HHFrame = Instance.new("Frame")
-	TopBar = Instance.new("Frame")
-	TextLabel = Instance.new("TextLabel")
-	MidBar = Instance.new("Frame")
-	MainFrame = Instance.new("Frame")
-	TrainTab = Instance.new("Frame")
-	Frame2 = Instance.new("Frame")
-	SubFrame2 = Instance.new("Frame")
-	TextLabel_2 = Instance.new("TextLabel")
-	TextButton = Instance.new("TextButton")
-	TextButton_2 = Instance.new("TextButton")
-	TextLabel_3 = Instance.new("TextLabel")
-	Frame3 = Instance.new("Frame")
-	TextLabel_4 = Instance.new("TextLabel")
-	TextButton_3 = Instance.new("TextButton")
-	TextLabel_5 = Instance.new("TextLabel")
-	TextButton_4 = Instance.new("TextButton")
-	Frame4 = Instance.new("Frame")
-	TextLabel_6 = Instance.new("TextLabel")
-	TextButton_5 = Instance.new("TextButton")
-	TextLabel_7 = Instance.new("TextLabel")
-	TextButton_6 = Instance.new("TextButton")
-	Frame5 = Instance.new("Frame")
-	TextLabel_8 = Instance.new("TextLabel")
-	TextButton_7 = Instance.new("TextButton")
-	TextLabel_9 = Instance.new("TextLabel")
-	TextButton_8 = Instance.new("TextButton")
-	Frame6 = Instance.new("Frame")
-	TextLabel_10 = Instance.new("TextLabel")
-	TextButton_9 = Instance.new("TextButton")
-	TextLabel_11 = Instance.new("TextLabel")
-	TextButton_10 = Instance.new("TextButton")
-	Frame7 = Instance.new("Frame")
-	TextLabel_12 = Instance.new("TextLabel")
-	TextButton_11 = Instance.new("TextButton")
-	TextLabel_13 = Instance.new("TextLabel")
-	TextButton_12 = Instance.new("TextButton")
-	Frame1 = Instance.new("Frame")
-	TextLabel_14 = Instance.new("TextLabel")
-	Frame8 = Instance.new("Frame")
-	TextLabel_15 = Instance.new("TextLabel")
-	TextBox = Instance.new("TextBox")
-	TextLabel_16 = Instance.new("TextLabel")
-	TextBox_2 = Instance.new("TextBox")
-	Frame9 = Instance.new("Frame")
-	TextLabel_17 = Instance.new("TextLabel")
-	TextLabel_18 = Instance.new("TextLabel")
-	Frame10 = Instance.new("Frame")
-	TextLabel_19 = Instance.new("TextLabel")
-	TextLabel_20 = Instance.new("TextLabel")
-	Frame11 = Instance.new("Frame")
-	TextLabel_21 = Instance.new("TextLabel")
-	TextLabel_22 = Instance.new("TextLabel")
-	HomeTab = Instance.new("Frame")
-	Frame2_2 = Instance.new("Frame")
-	TextLabel_23 = Instance.new("TextLabel")
-	TextLabel_24 = Instance.new("TextLabel")
-	Frame1_2 = Instance.new("Frame")
-	TextLabel_25 = Instance.new("TextLabel")
-	TextLabel_26 = Instance.new("TextLabel")
-	Frame6_2 = Instance.new("Frame")
-	TextLabel_27 = Instance.new("TextLabel")
-	Frame3_2 = Instance.new("Frame")
-	TextLabel_28 = Instance.new("TextLabel")
-	mostnin = Instance.new("TextLabel")
-	Frame4_2 = Instance.new("Frame")
-	mostrep = Instance.new("TextLabel")
-	TextLabel_29 = Instance.new("TextLabel")
-	Frame5_2 = Instance.new("Frame")
-	TextLabel_30 = Instance.new("TextLabel")
-	fps = Instance.new("TextLabel")
-	Frame7_2 = Instance.new("Frame")
-	TextLabel_31 = Instance.new("TextLabel")
-	Frame8_2 = Instance.new("Frame")
-	TextLabel_32 = Instance.new("TextLabel")
-	ping = Instance.new("TextLabel")
-	CombatTab = Instance.new("Frame")
-	Frame2_3 = Instance.new("Frame")
-	TextButton_13 = Instance.new("TextButton")
-	TextLabel_33 = Instance.new("TextLabel")
-	TextButton_14 = Instance.new("TextButton")
-	TextLabel_34 = Instance.new("TextLabel")
-	Frame1_3 = Instance.new("Frame")
-	TextLabel_35 = Instance.new("TextLabel")
-	Frame10_2 = Instance.new("Frame")
-	TextLabel_36 = Instance.new("TextLabel")
-	TextButton_15 = Instance.new("TextButton")
-	TextButton_16 = Instance.new("TextButton")
-	TextLabel_37 = Instance.new("TextLabel")
-	Frame3_3 = Instance.new("Frame")
-	TextButton_17 = Instance.new("TextButton")
-	TextLabel_38 = Instance.new("TextLabel")
-	TextButton_18 = Instance.new("TextButton")
-	TextLabel_39 = Instance.new("TextLabel")
-	Frame4_3 = Instance.new("Frame")
-	TextButton_19 = Instance.new("TextButton")
-	TextLabel_40 = Instance.new("TextLabel")
-	TextButton_20 = Instance.new("TextButton")
-	TextLabel_41 = Instance.new("TextLabel")
-	Frame5_3 = Instance.new("Frame")
-	TextButton_21 = Instance.new("TextButton")
-	TextLabel_42 = Instance.new("TextLabel")
-	TextButton_22 = Instance.new("TextButton")
-	TextLabel_43 = Instance.new("TextLabel")
-	Frame6_3 = Instance.new("Frame")
-	TextButton_23 = Instance.new("TextButton")
-	TextLabel_44 = Instance.new("TextLabel")
-	TextButton_24 = Instance.new("TextButton")
-	TextLabel_45 = Instance.new("TextLabel")
-	Frame7_3 = Instance.new("Frame")
-	TextButton_25 = Instance.new("TextButton")
-	TextLabel_46 = Instance.new("TextLabel")
-	TextButton_26 = Instance.new("TextButton")
-	TextLabel_47 = Instance.new("TextLabel")
-	Frame8_3 = Instance.new("Frame")
-	TextButton_27 = Instance.new("TextButton")
-	TextLabel_48 = Instance.new("TextLabel")
-	TextButton_28 = Instance.new("TextButton")
-	TextLabel_49 = Instance.new("TextLabel")
-	Frame9_2 = Instance.new("Frame")
-	TextButton_29 = Instance.new("TextButton")
-	TextLabel_50 = Instance.new("TextLabel")
-	TextButton_30 = Instance.new("TextButton")
-	TextLabel_51 = Instance.new("TextLabel")
-	Frame11_2 = Instance.new("Frame")
-	TextLabel_52 = Instance.new("TextLabel")
-	TextButton_31 = Instance.new("TextButton")
-	TextButton_32 = Instance.new("TextButton")
-	TextLabel_53 = Instance.new("TextLabel")
-	PlayersTab = Instance.new("Frame")
-	Frame1_4 = Instance.new("Frame")
-	TextLabel_54 = Instance.new("TextLabel")
-	Frame2_4 = Instance.new("Frame")
-	TextButton_33 = Instance.new("TextButton")
-	TextLabel_55 = Instance.new("TextLabel")
-	TextButton_34 = Instance.new("TextButton")
-	TextLabel_56 = Instance.new("TextLabel")
-	Frame3_4 = Instance.new("Frame")
-	TextButton_35 = Instance.new("TextButton")
-	TextLabel_57 = Instance.new("TextLabel")
-	TextButton_36 = Instance.new("TextButton")
-	TextLabel_58 = Instance.new("TextLabel")
-	Frame4_4 = Instance.new("Frame")
-	TextButton_37 = Instance.new("TextButton")
-	TextLabel_59 = Instance.new("TextLabel")
-	TextButton_38 = Instance.new("TextButton")
-	TextLabel_60 = Instance.new("TextLabel")
-	Frame5_4 = Instance.new("Frame")
-	TextButton_39 = Instance.new("TextButton")
-	TextLabel_61 = Instance.new("TextLabel")
-	TextButton_40 = Instance.new("TextButton")
-	TextLabel_62 = Instance.new("TextLabel")
-	Frame5_5 = Instance.new("Frame")
-	TextButton_41 = Instance.new("TextButton")
-	TextLabel_63 = Instance.new("TextLabel")
-	TextLabel_64 = Instance.new("TextLabel")
-	TextButton_42 = Instance.new("TextButton")
-	Frame6_4 = Instance.new("Frame")
-	TextLabel_65 = Instance.new("TextLabel")
-	TextButton_43 = Instance.new("TextButton")
-	TextLabel_66 = Instance.new("TextLabel")
-	TextButton_44 = Instance.new("TextButton")
-	Frame6_5 = Instance.new("Frame")
-	TextLabel_67 = Instance.new("TextLabel")
-	TextButton_45 = Instance.new("TextButton")
-	TextLabel_68 = Instance.new("TextLabel")
-	TextButton_46 = Instance.new("TextButton")
-	Frame6_6 = Instance.new("Frame")
-	TextLabel_69 = Instance.new("TextLabel")
-	TextButton_47 = Instance.new("TextButton")
-	TextLabel_70 = Instance.new("TextLabel")
-	TextButton_48 = Instance.new("TextButton")
-	MiscTab = Instance.new("Frame")
-	Frame1_5 = Instance.new("Frame")
-	TextLabel_71 = Instance.new("TextLabel")
-	TextLabel_72 = Instance.new("TextLabel")
-	Frame2_5 = Instance.new("Frame")
-	TextLabel_73 = Instance.new("TextLabel")
-	TextButton_49 = Instance.new("TextButton")
-	TextLabel_74 = Instance.new("TextLabel")
-	TextButton_50 = Instance.new("TextButton")
-	Frame3_5 = Instance.new("Frame")
-	TextButton_51 = Instance.new("TextButton")
-	TextLabel_75 = Instance.new("TextLabel")
-	TextButton_52 = Instance.new("TextButton")
-	TextLabel_76 = Instance.new("TextLabel")
-	Frame5_6 = Instance.new("Frame")
-	TextButton_53 = Instance.new("TextButton")
-	TextLabel_77 = Instance.new("TextLabel")
-	TextButton_54 = Instance.new("TextButton")
-	TextLabel_78 = Instance.new("TextLabel")
-	Frame4_5 = Instance.new("Frame")
-	SubFrame1_5 = Instance.new("Frame")
-	TextLabel_79 = Instance.new("TextLabel")
-	TextBox_3 = Instance.new("TextBox")
-	SubFrame2_5 = Instance.new("Frame")
-	TextLabel_80 = Instance.new("TextLabel")
-	TextBox_4 = Instance.new("TextBox")
-	Frame6_7 = Instance.new("Frame")
-	TextButton_55 = Instance.new("TextButton")
-	TextLabel_81 = Instance.new("TextLabel")
-	TextButton_56 = Instance.new("TextButton")
-	TextLabel_82 = Instance.new("TextLabel")
-	Frame7_4 = Instance.new("Frame")
-	TextButton_57 = Instance.new("TextButton")
-	TextLabel_83 = Instance.new("TextLabel")
-	TextButton_58 = Instance.new("TextButton")
-	TextLabel_84 = Instance.new("TextLabel")
-	Frame7_5 = Instance.new("Frame")
-	TextButton_59 = Instance.new("TextButton")
-	TextLabel_85 = Instance.new("TextLabel")
-	TextButton_60 = Instance.new("TextButton")
-	TextLabel_86 = Instance.new("TextLabel")
-	Frame7_6 = Instance.new("Frame")
-	TextButton_61 = Instance.new("TextButton")
-	TextLabel_87 = Instance.new("TextLabel")
-	TextButton_62 = Instance.new("TextButton")
-	TextLabel_88 = Instance.new("TextLabel")
-	Frame7_7 = Instance.new("Frame")
-	TextButton_63 = Instance.new("TextButton")
-	TextLabel_89 = Instance.new("TextLabel")
-	TextButton_64 = Instance.new("TextButton")
-	TextLabel_90 = Instance.new("TextLabel")
-	ServerTab = Instance.new("Frame")
-	Frame1_6 = Instance.new("Frame")
-	TextLabel_91 = Instance.new("TextLabel")
-	Frame2_6 = Instance.new("Frame")
-	TextButton_65 = Instance.new("TextButton")
-	TextLabel_92 = Instance.new("TextLabel")
-	TextButton_66 = Instance.new("TextButton")
-	TextLabel_93 = Instance.new("TextLabel")
-	Frame3_6 = Instance.new("Frame")
-	TextButton_67 = Instance.new("TextButton")
-	TextLabel_94 = Instance.new("TextLabel")
-	TextButton_68 = Instance.new("TextButton")
-	TextLabel_95 = Instance.new("TextLabel")
-	Frame4_6 = Instance.new("Frame")
-	TextButton_69 = Instance.new("TextButton")
-	TextLabel_96 = Instance.new("TextLabel")
-	TextLabel_97 = Instance.new("TextLabel")
-	TextButton_70 = Instance.new("TextButton")
-	Frame4_7 = Instance.new("Frame")
-	TextButton_71 = Instance.new("TextButton")
-	TextLabel_98 = Instance.new("TextLabel")
-	TextLabel_99 = Instance.new("TextLabel")
-	TextButton_72 = Instance.new("TextButton")
-	ButtonsFrame = Instance.new("Frame")
-	Homebtn = Instance.new("TextButton")
-	Trainbtn = Instance.new("TextButton")
-	Combatbtn = Instance.new("TextButton")
-	Playersbtn = Instance.new("TextButton")
-	Serverbtn = Instance.new("TextButton")
-	Miscbtn = Instance.new("TextButton")
-	UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-	AdminImgBtn = Instance.new("ImageButton")
+local on = true
+if not on then return end
+if game.PlaceId ~= 823323202 then return end
+
+
+HunterHub = Instance.new("ScreenGui")
+HHFrame = Instance.new("Frame")
+TopBar = Instance.new("Frame")
+TextLabel = Instance.new("TextLabel")
+MidBar = Instance.new("Frame")
+MainFrame = Instance.new("Frame")
+TrainTab = Instance.new("Frame")
+Frame2 = Instance.new("Frame")
+SubFrame2 = Instance.new("Frame")
+TextLabel_2 = Instance.new("TextLabel")
+TextButton = Instance.new("TextButton")
+TextButton_2 = Instance.new("TextButton")
+TextLabel_3 = Instance.new("TextLabel")
+Frame3 = Instance.new("Frame")
+TextLabel_4 = Instance.new("TextLabel")
+TextButton_3 = Instance.new("TextButton")
+TextLabel_5 = Instance.new("TextLabel")
+TextButton_4 = Instance.new("TextButton")
+Frame4 = Instance.new("Frame")
+TextLabel_6 = Instance.new("TextLabel")
+TextButton_5 = Instance.new("TextButton")
+TextLabel_7 = Instance.new("TextLabel")
+TextButton_6 = Instance.new("TextButton")
+Frame5 = Instance.new("Frame")
+TextLabel_8 = Instance.new("TextLabel")
+TextButton_7 = Instance.new("TextButton")
+TextLabel_9 = Instance.new("TextLabel")
+TextButton_8 = Instance.new("TextButton")
+Frame6 = Instance.new("Frame")
+TextLabel_10 = Instance.new("TextLabel")
+TextButton_9 = Instance.new("TextButton")
+TextLabel_11 = Instance.new("TextLabel")
+TextButton_10 = Instance.new("TextButton")
+Frame7 = Instance.new("Frame")
+TextLabel_12 = Instance.new("TextLabel")
+TextButton_11 = Instance.new("TextButton")
+TextLabel_13 = Instance.new("TextLabel")
+TextButton_12 = Instance.new("TextButton")
+Frame1 = Instance.new("Frame")
+TextLabel_14 = Instance.new("TextLabel")
+Frame8 = Instance.new("Frame")
+TextLabel_15 = Instance.new("TextLabel")
+TextBox = Instance.new("TextBox")
+TextLabel_16 = Instance.new("TextLabel")
+TextBox_2 = Instance.new("TextBox")
+Frame9 = Instance.new("Frame")
+TextLabel_17 = Instance.new("TextLabel")
+TextLabel_18 = Instance.new("TextLabel")
+Frame10 = Instance.new("Frame")
+TextLabel_19 = Instance.new("TextLabel")
+TextLabel_20 = Instance.new("TextLabel")
+Frame11 = Instance.new("Frame")
+TextLabel_21 = Instance.new("TextLabel")
+TextLabel_22 = Instance.new("TextLabel")
+HomeTab = Instance.new("Frame")
+Frame2_2 = Instance.new("Frame")
+TextLabel_23 = Instance.new("TextLabel")
+TextLabel_24 = Instance.new("TextLabel")
+Frame1_2 = Instance.new("Frame")
+TextLabel_25 = Instance.new("TextLabel")
+TextLabel_26 = Instance.new("TextLabel")
+Frame6_2 = Instance.new("Frame")
+TextLabel_27 = Instance.new("TextLabel")
+Frame3_2 = Instance.new("Frame")
+TextLabel_28 = Instance.new("TextLabel")
+mostnin = Instance.new("TextLabel")
+Frame4_2 = Instance.new("Frame")
+mostrep = Instance.new("TextLabel")
+TextLabel_29 = Instance.new("TextLabel")
+Frame5_2 = Instance.new("Frame")
+TextLabel_30 = Instance.new("TextLabel")
+fps = Instance.new("TextLabel")
+Frame7_2 = Instance.new("Frame")
+TextLabel_31 = Instance.new("TextLabel")
+Frame8_2 = Instance.new("Frame")
+TextLabel_32 = Instance.new("TextLabel")
+ping = Instance.new("TextLabel")
+CombatTab = Instance.new("Frame")
+Frame2_3 = Instance.new("Frame")
+TextButton_13 = Instance.new("TextButton")
+TextLabel_33 = Instance.new("TextLabel")
+TextButton_14 = Instance.new("TextButton")
+TextLabel_34 = Instance.new("TextLabel")
+Frame1_3 = Instance.new("Frame")
+TextLabel_35 = Instance.new("TextLabel")
+Frame10_2 = Instance.new("Frame")
+TextLabel_36 = Instance.new("TextLabel")
+TextButton_15 = Instance.new("TextButton")
+TextButton_16 = Instance.new("TextButton")
+TextLabel_37 = Instance.new("TextLabel")
+Frame3_3 = Instance.new("Frame")
+TextButton_17 = Instance.new("TextButton")
+TextLabel_38 = Instance.new("TextLabel")
+TextButton_18 = Instance.new("TextButton")
+TextLabel_39 = Instance.new("TextLabel")
+Frame4_3 = Instance.new("Frame")
+TextButton_19 = Instance.new("TextButton")
+TextLabel_40 = Instance.new("TextLabel")
+TextButton_20 = Instance.new("TextButton")
+TextLabel_41 = Instance.new("TextLabel")
+Frame5_3 = Instance.new("Frame")
+TextButton_21 = Instance.new("TextButton")
+TextLabel_42 = Instance.new("TextLabel")
+TextButton_22 = Instance.new("TextButton")
+TextLabel_43 = Instance.new("TextLabel")
+Frame6_3 = Instance.new("Frame")
+TextButton_23 = Instance.new("TextButton")
+TextLabel_44 = Instance.new("TextLabel")
+TextButton_24 = Instance.new("TextButton")
+TextLabel_45 = Instance.new("TextLabel")
+Frame7_3 = Instance.new("Frame")
+TextButton_25 = Instance.new("TextButton")
+TextLabel_46 = Instance.new("TextLabel")
+TextButton_26 = Instance.new("TextButton")
+TextLabel_47 = Instance.new("TextLabel")
+Frame8_3 = Instance.new("Frame")
+TextButton_27 = Instance.new("TextButton")
+TextLabel_48 = Instance.new("TextLabel")
+TextButton_28 = Instance.new("TextButton")
+TextLabel_49 = Instance.new("TextLabel")
+Frame9_2 = Instance.new("Frame")
+TextButton_29 = Instance.new("TextButton")
+TextLabel_50 = Instance.new("TextLabel")
+TextButton_30 = Instance.new("TextButton")
+TextLabel_51 = Instance.new("TextLabel")
+Frame11_2 = Instance.new("Frame")
+TextLabel_52 = Instance.new("TextLabel")
+TextButton_31 = Instance.new("TextButton")
+TextButton_32 = Instance.new("TextButton")
+TextLabel_53 = Instance.new("TextLabel")
+PlayersTab = Instance.new("Frame")
+Frame1_4 = Instance.new("Frame")
+TextLabel_54 = Instance.new("TextLabel")
+Frame2_4 = Instance.new("Frame")
+TextButton_33 = Instance.new("TextButton")
+TextLabel_55 = Instance.new("TextLabel")
+TextButton_34 = Instance.new("TextButton")
+TextLabel_56 = Instance.new("TextLabel")
+Frame3_4 = Instance.new("Frame")
+TextButton_35 = Instance.new("TextButton")
+TextLabel_57 = Instance.new("TextLabel")
+TextButton_36 = Instance.new("TextButton")
+TextLabel_58 = Instance.new("TextLabel")
+Frame4_4 = Instance.new("Frame")
+TextButton_37 = Instance.new("TextButton")
+TextLabel_59 = Instance.new("TextLabel")
+TextButton_38 = Instance.new("TextButton")
+TextLabel_60 = Instance.new("TextLabel")
+Frame5_4 = Instance.new("Frame")
+TextButton_39 = Instance.new("TextButton")
+TextLabel_61 = Instance.new("TextLabel")
+TextButton_40 = Instance.new("TextButton")
+TextLabel_62 = Instance.new("TextLabel")
+Frame5_5 = Instance.new("Frame")
+TextButton_41 = Instance.new("TextButton")
+TextLabel_63 = Instance.new("TextLabel")
+TextLabel_64 = Instance.new("TextLabel")
+TextButton_42 = Instance.new("TextButton")
+Frame6_4 = Instance.new("Frame")
+TextLabel_65 = Instance.new("TextLabel")
+TextButton_43 = Instance.new("TextButton")
+TextLabel_66 = Instance.new("TextLabel")
+TextButton_44 = Instance.new("TextButton")
+Frame6_5 = Instance.new("Frame")
+TextLabel_67 = Instance.new("TextLabel")
+TextButton_45 = Instance.new("TextButton")
+TextLabel_68 = Instance.new("TextLabel")
+TextButton_46 = Instance.new("TextButton")
+Frame6_6 = Instance.new("Frame")
+TextLabel_69 = Instance.new("TextLabel")
+TextButton_47 = Instance.new("TextButton")
+TextLabel_70 = Instance.new("TextLabel")
+TextButton_48 = Instance.new("TextButton")
+MiscTab = Instance.new("Frame")
+Frame1_5 = Instance.new("Frame")
+TextLabel_71 = Instance.new("TextLabel")
+TextLabel_72 = Instance.new("TextLabel")
+Frame2_5 = Instance.new("Frame")
+TextLabel_73 = Instance.new("TextLabel")
+TextButton_49 = Instance.new("TextButton")
+TextLabel_74 = Instance.new("TextLabel")
+TextButton_50 = Instance.new("TextButton")
+Frame3_5 = Instance.new("Frame")
+TextButton_51 = Instance.new("TextButton")
+TextLabel_75 = Instance.new("TextLabel")
+TextButton_52 = Instance.new("TextButton")
+TextLabel_76 = Instance.new("TextLabel")
+Frame5_6 = Instance.new("Frame")
+TextButton_53 = Instance.new("TextButton")
+TextLabel_77 = Instance.new("TextLabel")
+TextButton_54 = Instance.new("TextButton")
+TextLabel_78 = Instance.new("TextLabel")
+Frame4_5 = Instance.new("Frame")
+SubFrame1_5 = Instance.new("Frame")
+TextLabel_79 = Instance.new("TextLabel")
+TextBox_3 = Instance.new("TextBox")
+SubFrame2_5 = Instance.new("Frame")
+TextLabel_80 = Instance.new("TextLabel")
+TextBox_4 = Instance.new("TextBox")
+Frame6_7 = Instance.new("Frame")
+TextButton_55 = Instance.new("TextButton")
+TextLabel_81 = Instance.new("TextLabel")
+TextButton_56 = Instance.new("TextButton")
+TextLabel_82 = Instance.new("TextLabel")
+Frame7_4 = Instance.new("Frame")
+TextButton_57 = Instance.new("TextButton")
+TextLabel_83 = Instance.new("TextLabel")
+TextButton_58 = Instance.new("TextButton")
+TextLabel_84 = Instance.new("TextLabel")
+Frame7_5 = Instance.new("Frame")
+TextButton_59 = Instance.new("TextButton")
+TextLabel_85 = Instance.new("TextLabel")
+TextButton_60 = Instance.new("TextButton")
+TextLabel_86 = Instance.new("TextLabel")
+Frame7_6 = Instance.new("Frame")
+TextButton_61 = Instance.new("TextButton")
+TextLabel_87 = Instance.new("TextLabel")
+TextButton_62 = Instance.new("TextButton")
+TextLabel_88 = Instance.new("TextLabel")
+Frame7_7 = Instance.new("Frame")
+TextButton_63 = Instance.new("TextButton")
+TextLabel_89 = Instance.new("TextLabel")
+TextButton_64 = Instance.new("TextButton")
+TextLabel_90 = Instance.new("TextLabel")
+ServerTab = Instance.new("Frame")
+Frame1_6 = Instance.new("Frame")
+TextLabel_91 = Instance.new("TextLabel")
+Frame2_6 = Instance.new("Frame")
+TextButton_65 = Instance.new("TextButton")
+TextLabel_92 = Instance.new("TextLabel")
+TextButton_66 = Instance.new("TextButton")
+TextLabel_93 = Instance.new("TextLabel")
+Frame3_6 = Instance.new("Frame")
+TextButton_67 = Instance.new("TextButton")
+TextLabel_94 = Instance.new("TextLabel")
+TextButton_68 = Instance.new("TextButton")
+TextLabel_95 = Instance.new("TextLabel")
+Frame4_6 = Instance.new("Frame")
+TextButton_69 = Instance.new("TextButton")
+TextLabel_96 = Instance.new("TextLabel")
+TextLabel_97 = Instance.new("TextLabel")
+TextButton_70 = Instance.new("TextButton")
+Frame4_7 = Instance.new("Frame")
+TextButton_71 = Instance.new("TextButton")
+TextLabel_98 = Instance.new("TextLabel")
+TextLabel_99 = Instance.new("TextLabel")
+TextButton_72 = Instance.new("TextButton")
+ButtonsFrame = Instance.new("Frame")
+Homebtn = Instance.new("TextButton")
+Trainbtn = Instance.new("TextButton")
+Combatbtn = Instance.new("TextButton")
+Playersbtn = Instance.new("TextButton")
+Serverbtn = Instance.new("TextButton")
+Miscbtn = Instance.new("TextButton")
+UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+AdminImgBtn = Instance.new("ImageButton")
 
 --Properties:
 
@@ -913,18 +918,19 @@ TextButton_8.TextScaled = true
 TextButton_8.TextSize = 19.000
 TextButton_8.TextWrapped = true
 
-local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+local RunService = game:GetService("RunService")
+local Character = Players.LocalPlayer.Character or Players.LocalPlayer.CharacterAdded:Wait()
 
 local VariableTable = { Noclip = false }
-local NoclipHandler = nil
+local NoclipHandler 
 
 local function NoclipLoop()
-    local character = Players.LocalPlayer.Character
-    if character then
-        for _, v in pairs(character:GetDescendants()) do
-            if v:IsA("BasePart") then
-                v.CanCollide = not VariableTable['Noclip']
+    if Character then
+        for i,v in pairs(Character:GetDescendants()) do
+            if v:IsA("BasePart") and v.CanCollide then
+                v.CanCollide = false
             end
         end
     end
@@ -941,26 +947,12 @@ local function toggleNoclipState()
             NoclipHandler:Disconnect()
             NoclipHandler = nil
         end
-        NoclipLoop() -- Ensure colliders are reset when turning off
+        NoclipLoop()
         TextButton_8.Text = "Off"
         TextButton_8.TextColor3 = Color3.fromRGB(255, 0, 0)
     end
 end
-
 TextButton_8.MouseButton1Down:Connect(toggleNoclipState)
-
-if VariableTable['Noclip'] then
-    toggleNoclipState()
-else
-    TextButton_8.Text = "Off"
-    TextButton_8.TextColor3 = Color3.fromRGB(255, 0, 0)
-end
-
-Players.LocalPlayer.CharacterAdded:Connect(function(character)
-    if VariableTable['Noclip'] then
-        NoclipHandler = RunService.Heartbeat:Connect(NoclipLoop)
-    end
-end)
 
 Frame6.Name = "Frame6"
 Frame6.Parent = TrainTab
@@ -1007,21 +999,21 @@ local RunService = game:GetService("RunService")
 local VariableTable = {AutoSword = false}
 local toolConnection
 
-local function equipTool(toolName)
+function equipTool(toolName)
     local tool = Players.LocalPlayer.Backpack:FindFirstChild(toolName)
     if tool then
         tool.Parent = Players.LocalPlayer.Character
     end
 end
 
-local function unequipTool(toolName)
+function unequipTool(toolName)
     local tool = Players.LocalPlayer.Character:FindFirstChild(toolName)
     if tool then
         tool.Parent = Players.LocalPlayer.Backpack
     end
 end
 
-local function toolLoop()
+function toolLoop()
     if Players.LocalPlayer.Character and Players.LocalPlayer.Character:FindFirstChild("ForceField") then
         for i = 1, 4 do
             if not VariableTable['AutoSword'] then return end
@@ -1039,7 +1031,7 @@ local function toolLoop()
     end
 end
 
-local function toggleToolState()
+function toggleToolState()
     VariableTable['AutoSword'] = not VariableTable['AutoSword']
     if VariableTable['AutoSword'] then
         toolConnection = RunService.Heartbeat:Connect(toolLoop)
@@ -1120,8 +1112,6 @@ function moveToSafeSpot()
         humanoidRootPart.CFrame = CFrame.new(part.Position + Vector3.new(0, 1, 0))
         TextButton_10.Text = "On"
         TextButton_10.TextColor3 = Color3.fromRGB(0, 255, 0)
-    else
-        warn("HumanoidRootPart not found")
     end
 end
 
@@ -1132,11 +1122,7 @@ function moveToStoredPosition()
             humanoidRootPart.CFrame = CFrame.new(lastPosition)
             TextButton_10.Text = "Off"
             TextButton_10.TextColor3 = Color3.fromRGB(255, 0, 0)
-        else
-            warn("HumanoidRootPart not found")
         end
-    else
-        warn("Last position is not set")
     end
 end
 
@@ -1191,44 +1177,34 @@ TextButton_11.TextScaled = true
 TextButton_11.TextSize = 19.000
 TextButton_11.TextWrapped = true
 
-local firstAnimationId = "rbxassetid://1028779243"
-local secondAnimationId = "rbxassetid://1028830945"
-local thirdAnimationId = "rbxassetid://1029863696"
+local animationIds = {
+    "rbxassetid://1028779243",
+    "rbxassetid://1028830945",
+    "rbxassetid://1029863696"
+}
 
 local AnimationsEnabled = false
 
 function playAnimations()
     local player = game.Players.LocalPlayer
     local character = player.Character or player.CharacterAdded:Wait()
-
-    local firstAnimation = Instance.new("Animation")
-    firstAnimation.AnimationId = firstAnimationId
-
-    local secondAnimation = Instance.new("Animation")
-    secondAnimation.AnimationId = secondAnimationId
-
-    local thirdAnimation = Instance.new("Animation")
-    thirdAnimation.AnimationId = thirdAnimationId
-
     local humanoid = character:FindFirstChildOfClass("Humanoid")
+
     if humanoid then
+        local animations = {}
+        for _, id in ipairs(animationIds) do
+            local animation = Instance.new("Animation")
+            animation.AnimationId = id
+            table.insert(animations, animation)
+        end
+
         while AnimationsEnabled do
-            local firstAnimationTrack = humanoid:LoadAnimation(firstAnimation)
-            local secondAnimationTrack = humanoid:LoadAnimation(secondAnimation)
-            local thirdAnimationTrack = humanoid:LoadAnimation(thirdAnimation)
-
-            firstAnimationTrack:Play()
-            wait(1)
-            firstAnimationTrack:Stop()
-
-            secondAnimationTrack:Play()
-            wait(1)
-            secondAnimationTrack:Stop()
-
-            thirdAnimationTrack:Play()
-            wait(1)
-            thirdAnimationTrack:Stop()
-
+            for _, animation in ipairs(animations) do
+                local animationTrack = humanoid:LoadAnimation(animation)
+                animationTrack:Play()
+                wait(1)
+                animationTrack:Stop()
+            end
             wait()
         end
     end
@@ -1236,14 +1212,9 @@ end
 
 TextButton_11.MouseButton1Down:Connect(function()
     AnimationsEnabled = not AnimationsEnabled
-    if AnimationsEnabled then
-        TextButton_11.Text = "On"
-        TextButton_11.TextColor3 = Color3.fromRGB(0, 255, 0)
-        playAnimations()
-    else
-        TextButton_11.Text = "Off"
-        TextButton_11.TextColor3 = Color3.fromRGB(255, 0, 0)
-    end
+    TextButton_11.Text = AnimationsEnabled and "On" or "Off"
+    TextButton_11.TextColor3 = AnimationsEnabled and Color3.fromRGB(0, 255, 0) or Color3.fromRGB(255, 0, 0)
+    if AnimationsEnabled then playAnimations() end
 end)
 
 game.Players.LocalPlayer.CharacterAdded:Connect(function()
@@ -1312,8 +1283,6 @@ function teleportToSeat()
         if character:FindFirstChild("Humanoid") then
             character.Humanoid.Sit = true
         end
-    else
-        warn("Seat part not found in the workspace.")
     end
 end
 
@@ -1457,12 +1426,12 @@ local isAutoTrainOn = false
 local trainRate = tonumber(TextBox.Text)
 local trainAmount = tonumber(TextBox_2.Text)
 
-local function updateValues()
+function updateValues()
     trainRate = tonumber(TextBox.Text) or trainRate
     trainAmount = tonumber(TextBox_2.Text) or trainAmount
 end
 
-local function autoTrain()
+function autoTrain()
     while isAutoTrainOn do
         addPowerEvent:FireServer("FromTraining", trainAmount)
         wait(trainRate)
@@ -1989,8 +1958,6 @@ TextButton_13.MouseButton1Down:Connect(function()
 					if shuriken.Parent == character then
 						shuriken.Parent = player.Backpack
 					end
-				else
-					warn("Shuriken not found in backpack or character")
 				end
 			end
 
@@ -2391,71 +2358,55 @@ TextButton_17.TextWrapped = true
 local TextButtonEnabled = false
 local connections = {}
 
+function findTool(player, toolName)
+    local backpack = player.Backpack
+    local character = player.Character
+    if character then
+        for _, item in ipairs(character:GetChildren()) do
+            if item:IsA("Tool") and item.Name == toolName then
+                return item, true
+            end
+        end
+    end
+    for _, item in ipairs(backpack:GetChildren()) do
+        if item:IsA("Tool") and item.Name == toolName then
+            return item, false
+        end
+    end
+    return nil
+end
+
+function toggleTool(player, toolName)
+    local tool, equipped = findTool(player, toolName)
+    local humanoid = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
+
+    if humanoid then
+        if equipped then
+            humanoid:UnequipTools()
+        elseif tool then
+            humanoid:EquipTool(tool)
+        end
+    end
+end
+
 TextButton_17.MouseButton1Down:Connect(function()
     TextButtonEnabled = not TextButtonEnabled
+    TextButton_17.Text = TextButtonEnabled and "On" or "Off"
+    TextButton_17.TextColor3 = TextButtonEnabled and Color3.fromRGB(0, 255, 0) or Color3.fromRGB(255, 0, 0)
+
     if TextButtonEnabled then
-        TextButton_17.Text = "On"
-        TextButton_17.TextColor3 = Color3.fromRGB(0, 255, 0)
-
-        local toolName = "Shuriken"
-
-        local function findToolInBackpack(player, toolName)
-            for _, item in pairs(player.Backpack:GetChildren()) do
-                if item:IsA("Tool") and item.Name == toolName then
-                    return item
-                end
-            end
-            return nil
-        end
-
-        local function findToolInCharacter(player, toolName)
-            local character = player.Character
-            if character then
-                for _, item in pairs(character:GetChildren()) do
-                    if item:IsA("Tool") and item.Name == toolName then
-                        return item
-                    end
-                end
-            end
-            return nil
-        end
-
-        local function equipTool(player, tool)
-            tool.Parent = player.Backpack
-            player.Character.Humanoid:EquipTool(tool)
-        end
-
-        local function unequipTool(player)
-            player.Character.Humanoid:UnequipTools()
-        end
-
-        local function main()
-            local player = game.Players.LocalPlayer
-            local toolInBackpack = findToolInBackpack(player, toolName)
-            local toolInCharacter = findToolInCharacter(player, toolName)
-
-            if toolInCharacter then
-                unequipTool(player)
-            elseif toolInBackpack then
-                equipTool(player, toolInBackpack)
-            end
-        end
-
         for i = 1, 4 do
             local connection = spawn(function()
                 while TextButtonEnabled do
-                    main()
+                    toggleTool(game.Players.LocalPlayer, "Shuriken")
                     wait()
                 end
             end)
             table.insert(connections, connection)
         end
     else
-        TextButton_17.Text = "Off"
-        TextButton_17.TextColor3 = Color3.fromRGB(255, 0, 0)
-
-        for _, connection in pairs(connections) do
-            if connection then
+        for _, connection in ipairs(connections) do
+            if connection and connection.Disconnect then
                 connection:Disconnect()
             end
         end
@@ -2530,8 +2481,6 @@ TextButton_18.MouseButton1Down:Connect(function()
 					if shuriken.Parent == character then
 						shuriken.Parent = player.Backpack
 					end
-				else
-					warn("Shuriken not found in backpack or character")
 				end
 			end
 
@@ -2628,8 +2577,6 @@ TextButton_19.MouseButton1Down:Connect(function()
 					if shuriken.Parent == character then
 						shuriken.Parent = player.Backpack
 					end
-				else
-					warn("Shuriken not found in backpack or character")
 				end
 			end
 
@@ -3453,12 +3400,10 @@ local localPlayer = playerService.LocalPlayer
 local function disableShurikens(targetPlayer)
     if targetPlayer and targetPlayer ~= localPlayer then
         local shurikens = {}
-        print("Disabling shurikens for player:", targetPlayer.Name)
 
         for _, item in ipairs(targetPlayer.Backpack:GetChildren()) do
             if item.Name == "Shuriken" then
                 table.insert(shurikens, item)
-                print("Found shuriken in backpack:", item.Name)
             end
         end
 
@@ -3467,7 +3412,6 @@ local function disableShurikens(targetPlayer)
             for _, item in ipairs(character:GetChildren()) do
                 if item.Name == "Shuriken" then
                     table.insert(shurikens, item)
-                    print("Found shuriken in character:", item.Name)
                 end
             end
         end
@@ -3475,13 +3419,8 @@ local function disableShurikens(targetPlayer)
         for _, shuriken in ipairs(shurikens) do
             if shuriken:FindFirstChild("HitEvent") then
                 shuriken.HitEvent:FireServer()
-                print("Disabled shuriken:", shuriken.Name)
-            else
-                print("No HitEvent found for shuriken:", shuriken.Name)
             end
         end
-    else
-        print("Player not found or is the local player.")
     end
 end
 
@@ -3497,8 +3436,6 @@ local function initializeDisabling(targetPlayerName)
     if targetPlayer and targetPlayer ~= localPlayer then
         disableShurikens(targetPlayer)
         onPlayerRespawn(targetPlayer)
-    else
-        print("Player " .. targetPlayerName .. " not found or is the local player.")
     end
 end
 
@@ -3856,8 +3793,6 @@ function teleportToSeat()
             humanoid.Sit = true
             humanoid.Jump = false
         end
-    else
-        warn("Seat part not found in the workspace.")
     end
 end
 
@@ -4088,9 +4023,9 @@ TextButton_31.MouseButton1Click:Connect(function()
 						local targetHead = targetPlayer.Character:FindFirstChild("Head")
 						if targetHead then
 							thrownKunai.CanCollide = false
-				                        thrownKunai.Velocity = Vector3.new(0, 0, 0)
-				                        thrownKunai.CFrame = targetHead.CFrame
-				                        game.Debris:AddItem(thrownKunai, 1)
+				            thrownKunai.Velocity = Vector3.new(0, 0, 0)
+				            thrownKunai.CFrame = targetHead.CFrame
+				            game.Debris:AddItem(thrownKunai, 1)
 						end
 					end
 				end
@@ -4523,7 +4458,7 @@ TextButton_35.TextScaled = true
 TextButton_35.TextSize = 19.000
 TextButton_35.TextWrapped = true
 TextButton_35.MouseButton1Down:connect(function()
-   game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
+    game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
 	game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
 	game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
 	game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
@@ -4735,7 +4670,7 @@ TextButton_37.MouseButton1Down:connect(function()
 	game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
 	game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
 	game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
-   game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
+    game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
 	game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
 	game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
 	game:GetService("ReplicatedStorage").RemoteEvent.SpawnCharacterEvent:FireServer("MainSpawn")
@@ -4823,14 +4758,21 @@ local Workspace = game:GetService("Workspace")
 local localPlayer = Players.LocalPlayer
 local isOn = false
 
-local function updateButton()
-    if isOn then
-        TextButton_38.Text = "On"
-        TextButton_38.TextColor3 = Color3.fromRGB(0, 255, 0)
-    else
-        TextButton_38.Text = "Off"
-        TextButton_38.TextColor3 = Color3.fromRGB(255, 0, 0)
-    end
+local heartPoints = {
+    Vector3.new(0, 50, 0), Vector3.new(5, 55, 0), Vector3.new(10, 60, 0), Vector3.new(15, 62, 0),
+    Vector3.new(20, 63, 0), Vector3.new(25, 62, 0), Vector3.new(30, 60, 0), Vector3.new(35, 55, 0),
+    Vector3.new(40, 50, 0), Vector3.new(35, 45, 0), Vector3.new(30, 40, 0), Vector3.new(25, 35, 0),
+    Vector3.new(20, 30, 0), Vector3.new(15, 25, 0), Vector3.new(10, 20, 0), Vector3.new(5, 15, 0),
+    Vector3.new(0, 10, 0), Vector3.new(-5, 15, 0), Vector3.new(-10, 20, 0), Vector3.new(-15, 25, 0),
+    Vector3.new(-20, 30, 0), Vector3.new(-25, 35, 0), Vector3.new(-30, 40, 0), Vector3.new(-35, 45, 0),
+    Vector3.new(-40, 50, 0), Vector3.new(-35, 55, 0), Vector3.new(-30, 60, 0), Vector3.new(-25, 62, 0),
+    Vector3.new(-20, 63, 0), Vector3.new(-15, 62, 0), Vector3.new(-10, 60, 0), Vector3.new(-5, 55, 0),
+    Vector3.new(0, 50, 0)
+}
+
+function updateButton()
+    TextButton_38.Text = isOn and "On" or "Off"
+    TextButton_38.TextColor3 = isOn and Color3.fromRGB(0, 255, 0) or Color3.fromRGB(255, 0, 0)
 end
 
 TextButton_38.MouseButton1Click:Connect(function()
@@ -4838,79 +4780,30 @@ TextButton_38.MouseButton1Click:Connect(function()
     updateButton()
 end)
 
-local function getCharacterHeadPosition()
-    if localPlayer.Character and localPlayer.Character:FindFirstChild("Head") then
-        return localPlayer.Character.Head.Position
-    end
-    return Vector3.new(0, 0, 0)
-end
-
-local heartPoints = {
-    Vector3.new(0, 50, 0),
-    Vector3.new(5, 55, 0),
-    Vector3.new(10, 60, 0),
-    Vector3.new(15, 62, 0),
-    Vector3.new(20, 63, 0),
-    Vector3.new(25, 62, 0),
-    Vector3.new(30, 60, 0),
-    Vector3.new(35, 55, 0),
-    Vector3.new(40, 50, 0),
-    Vector3.new(35, 45, 0),
-    Vector3.new(30, 40, 0),
-    Vector3.new(25, 35, 0),
-    Vector3.new(20, 30, 0),
-    Vector3.new(15, 25, 0),
-    Vector3.new(10, 20, 0),
-    Vector3.new(5, 15, 0),
-    Vector3.new(0, 10, 0),
-    Vector3.new(-5, 15, 0),
-    Vector3.new(-10, 20, 0),
-    Vector3.new(-15, 25, 0),
-    Vector3.new(-20, 30, 0),
-    Vector3.new(-25, 35, 0),
-    Vector3.new(-30, 40, 0),
-    Vector3.new(-35, 45, 0),
-    Vector3.new(-40, 50, 0),
-    Vector3.new(-35, 55, 0),
-    Vector3.new(-30, 60, 0),
-    Vector3.new(-25, 62, 0),
-    Vector3.new(-20, 63, 0),
-    Vector3.new(-15, 62, 0),
-    Vector3.new(-10, 60, 0),
-    Vector3.new(-5, 55, 0),
-    Vector3.new(0, 50, 0)
-}
-
-local function tweenKunaiToPoints(kunai, points, basePosition)
-    for i, point in ipairs(points) do
-        local goal = {Position = basePosition + point}
-        local tweenInfo = TweenInfo.new(0.01, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut)
-        local tween = TweenService:Create(kunai, tweenInfo, goal)
-        
-        tween:Play()
-        tween.Completed:Wait()
-    end
-end
-
-local function onThrownKunaiAdded(kunai)
-    if kunai:IsA("BasePart") and isOn then
-        local headPosition = getCharacterHeadPosition()
-        local basePosition = headPosition + Vector3.new(0, 20, -10)
-        tweenKunaiToPoints(kunai, heartPoints, basePosition)
-    end
-end
-
-for _, kunai in ipairs(Workspace:GetChildren()) do
-    if kunai.Name == "ThrownKunai" then
-        onThrownKunaiAdded(kunai)
+function tweenKunai(kunai)
+    local character = localPlayer.Character
+    local head = character and character:FindFirstChild("Head")
+    if head and isOn then
+        local basePosition = head.Position + Vector3.new(0, 20, -10)
+        for _, point in ipairs(heartPoints) do
+            local tween = TweenService:Create(kunai, TweenInfo.new(0.01), {Position = basePosition + point})
+            tween:Play()
+            tween.Completed:Wait()
+        end
     end
 end
 
 Workspace.ChildAdded:Connect(function(child)
-    if child.Name == "ThrownKunai" then
-        onThrownKunaiAdded(child)
+    if child.Name == "ThrownKunai" and child:IsA("BasePart") then
+        tweenKunai(child)
     end
 end)
+
+for _, kunai in ipairs(Workspace:GetChildren()) do
+    if kunai.Name == "ThrownKunai" and kunai:IsA("BasePart") then
+        tweenKunai(kunai)
+    end
+end
 
 updateButton()
 
@@ -4957,11 +4850,10 @@ TextButton_39.MouseButton1Down:connect(function()
 	local tool = game.Players.LocalPlayer.Backpack:FindFirstChild("Train")
 	tool.Parent = game.Players.LocalPlayer.Character
 
-	local rs = game:GetService("ReplicatedStorage")
 	while wait(0.72) do
-		rs.RemoteEvent.AddPowerEvent:FireServer("FromTraining", -2000000000000000000000000000000000000000000000000)
+		game:GetService("ReplicatedStorage").RemoteEvent.AddPowerEvent:FireServer("FromTraining", -2000000000000000000000000000000000000000000000000)
 		wait(0.72)
-		rs.RemoteEvent.AddPowerEvent:FireServer("FromTraining", -19916241294912496129491248999999.99) 
+		game:GetService("ReplicatedStorage").RemoteEvent.AddPowerEvent:FireServer("FromTraining", -19916241294912496129491248999999.99) 
 	end
 end)
 
@@ -5384,7 +5276,7 @@ TextButton_45.TextScaled = true
 TextButton_45.TextSize = 19.000
 TextButton_45.TextWrapped = true
 TextButton_45.MouseButton1Down:connect(function()
-game:GetService("ReplicatedStorage").RemoteEvent.GiveItemEvent:FireServer("Sword", "BlackAndWhiteWingedSword")
+    game:GetService("ReplicatedStorage").RemoteEvent.GiveItemEvent:FireServer("Sword", "BlackAndWhiteWingedSword")
 end)
 
 TextLabel_68.Parent = Frame6_5
@@ -5416,7 +5308,7 @@ TextButton_46.TextScaled = true
 TextButton_46.TextSize = 19.000
 TextButton_46.TextWrapped = true
 TextButton_46.MouseButton1Down:connect(function()
-game:GetService("ReplicatedStorage").RemoteEvent.GiveItemEvent:FireServer("Sword", "UltraKatana")
+    game:GetService("ReplicatedStorage").RemoteEvent.GiveItemEvent:FireServer("Sword", "UltraKatana")
 end)
 
 Frame6_6.Name = "Frame6"
@@ -5458,7 +5350,7 @@ TextButton_47.TextScaled = true
 TextButton_47.TextSize = 19.000
 TextButton_47.TextWrapped = true
 TextButton_47.MouseButton1Down:connect(function()
-game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("Cloth", "Yang26")
+    game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("Cloth", "Yang26")
 end)
 
 TextLabel_70.Parent = Frame6_6
@@ -5490,7 +5382,7 @@ TextButton_48.TextScaled = true
 TextButton_48.TextSize = 19.000
 TextButton_48.TextWrapped = true
 TextButton_48.MouseButton1Down:connect(function()
-game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("Cloth", "Ying26")
+    game.ReplicatedStorage.RemoteEvent.GiveItemEvent:FireServer("Cloth", "Ying26")
 end)
 
 MiscTab.Name = "MiscTab"
@@ -6433,7 +6325,7 @@ TextButton_66.MouseButton1Down:connect(function()
         TextButton_66.TextColor3 = Color3.fromRGB(0, 255, 0)
         
         function playSounds(interval)
-            local function findAndPlaySounds()
+            function findAndPlaySounds()
                 for _, sound in ipairs(game:GetDescendants()) do
                     if sound:IsA("Sound") then
                         sound.Volume = 10
@@ -6889,17 +6781,8 @@ TextButton_71.TextColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_71.TextScaled = true
 TextButton_71.TextSize = 19.000
 TextButton_71.TextWrapped = true
-
-Players = game:GetService("Players")
-TeleportService = game:GetService("TeleportService")
-LocalPlayer = Players.LocalPlayer
-
-function rejoin()
-    TeleportService:Teleport(game.PlaceId, LocalPlayer)
-end
-
 TextButton_71.MouseButton1Down:Connect(function()
-    rejoin()
+    game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
 end)
 
 TextLabel_98.Parent = Frame4_7
